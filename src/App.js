@@ -7,11 +7,6 @@ import todosData from "./TodosData";
 
 function App() {  
   const todos=todosData;
-  
-  
- 
-
-  
   const todosItem=todos.map(item=><Todoitem key={item.id} item={item} />)
   return(
     <div>

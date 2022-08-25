@@ -14,6 +14,7 @@ function Todoitem(props) {
     <div className="todo-item">
         <input type="checkbox"  checked={check} onChange={()=>setCheck(!check)} ></input>
         <p className={cls}>{props.item.text}</p>
+      
     </div>
     )
 }
